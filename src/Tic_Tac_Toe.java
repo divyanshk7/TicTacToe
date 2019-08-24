@@ -87,6 +87,7 @@ public class Tic_Tac_Toe extends javax.swing.JFrame {
         }
 
         return 0;
+
     }
 
     public Tic_Tac_Toe() {
@@ -625,6 +626,7 @@ public class Tic_Tac_Toe extends javax.swing.JFrame {
     }                                     
 
     private void ExitActionPerformed(java.awt.event.ActionEvent evt) {                                     
+
         System.exit(0);
     }                                    
 
@@ -632,6 +634,7 @@ public class Tic_Tac_Toe extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
@@ -661,7 +664,8 @@ public class Tic_Tac_Toe extends javax.swing.JFrame {
             }
         });
     }
-                    
+
+    // Variables declaration - do not modify                     
     private javax.swing.JButton Exit;
     private javax.swing.JButton Reset;
     private javax.swing.JButton b1;
